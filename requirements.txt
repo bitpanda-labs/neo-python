@@ -1,42 +1,42 @@
-aenum==2.2.1
-aiohttp==3.6.0
-aiohttp-cors==0.7.0
-astor==0.8.0
-asynctest==0.13.0
-async-timeout==3.0.1
-attrs==19.1.0
-autopep8==1.4.4
-base58==1.0.3
-bitcoin==1.1.42
-certifi==2019.6.16
-chardet==3.0.4
-coverage==4.5.4
-coveralls==1.8.2
-coz-bytecode==0.5.1
-docopt==0.6.2
-ecdsa==0.13.2
-idna==2.8
-logzero==1.5.0
-mmh3==2.5.1
-mock==3.0.5
-mpmath==1.1.0
-multidict==4.5.2
-neo-boa==0.6.0
-neo-python-rpc==0.2.1
-pbr==5.4.3
-peewee==3.10.0
-plyvel==1.1.0
-prompt-toolkit==2.0.9
-psutil==5.6.3
-pycodestyle==2.5.0
-pycryptodome==3.9.0
-pymitter==0.2.3
-pyparsing==2.4.2
-pytz==2019.2
-requests==2.22.0
-scrypt==0.8.13
-six==1.12.0
-tqdm==4.29.1
-urllib3==1.25.3
-wcwidth==0.1.7
-yarl==1.3.0
+#aenum>=2.1.2,<3.0.0  # Commented out for library use
+#aiohttp==3.5.4  # Commented out for library use
+#aiohttp-cors==0.7.0  # Commented out for library use
+#astor>=0.7.1,<0.8.0  # Commented out for library use
+#asynctest==0.13.0  # Commented out for library use
+async-timeout>=3.0.1,<4.0.0
+attrs>=19.1.0,<20.0.0
+#autopep8==1.4.3  # Commented out for library use
+base58>=1.0.3,<3.0.0
+bitcoin>=1.1.39,<2.0.0
+certifi>=2019.3.9
+chardet>=3.0.4,<4.0.0
+#coverage==4.5.3  # Commented out for library use
+#coveralls==1.7.0  # Commented out for library use
+#coz-bytecode>=0.5.1,<0.6.0  # Commented out for library use
+#docopt==0.6.2  # Commented out for library use
+ecdsa>=0.13,<0.15.0
+idna>=2.8,<3.0
+logzero>=1.5.0,<2.0.0
+mmh3>=2.5.1,<3.0.0
+#mock==2.0.0  # Commented out for library use
+mpmath>=1.1.0,<2.0.0
+#multidict>=4.5.2,<5.0.0  # Commented out for library use
+neo-boa>=0.6.0,<0.7.0
+neo-python-rpc>=0.2.1,<0.3.0
+pbr>=5.1.3,<6.0.0
+#peewee==3.9.2  # Commented out for library use
+plyvel>=1.0.5,<2.0.0
+prompt-toolkit>=2.0.9,<3.0.0
+psutil>=5.6.1,<6.0.0
+#pycodestyle==2.5.0  # Commented out for library use
+pycryptodome>=3.7.3,<4.0.0
+pymitter>=0.2.3,<0.3.0
+#pyparsing>=2.3.1,<3.0.0  # Commented out for library use
+pytz>=2018.9
+requests>=2.21.0,<3.0.0
+scrypt>=0.8.6,<0.9.0
+#six>=1.12.0,<2.0.0  # Commented out for library use
+#tqdm>=4.29.1,<5.0.0  # Commented out for library use
+urllib3>=1.24.1,<2.0.0
+#wcwidth>=0.1.7,<0.2.0  # Commented out for library use
+#yarl>=1.3.0,<2.0.0  # Commented out for library use
