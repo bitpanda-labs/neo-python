@@ -4,22 +4,20 @@
 from setuptools import setup, find_packages
 
 try:  # pip version >= 19.3
-    from pip._internal.req import parse_requirements
     from pip._internal.network.session import PipSession
 except ImportError:
     try:  # pip version >= 10.0
-        from pip._internal.req import parse_requirements
         from pip._internal.download import PipSession
     except ImportError:  # pip version < 10.0
-        from pip.req import parse_requirements
         from pip.download import PipSession
 
 with open('README.rst') as readme_file:
     readme = readme_file.read()
 
 # get the requirements from requirements.txt
-install_reqs = parse_requirements('requirements.txt', session=PipSession())
-reqs = [str(ir.req) for ir in install_reqs]
+with open("requirements.txt") as requirements_file:
+    install_reqs = requirements_file.readlines()
+reqs = [req for req in install_reqs if not req.startswith("#")]
 
 setup(
     name='neo-python',
